@@ -5,13 +5,13 @@ using namespace std;
 int main()
 {
 	label:
-	srand((unsigned) time(0)); //In every execution the random number changes
+	srand((unsigned) time(0));
 	int random = 0;
 	cout<<"The Guessing Game:"<<endl;
 	cout<<"----Enter a guess between 1 to 100----"<<endl;
 	cout<<"----You have 5 tries to guess it right----\n"<<endl;
 	
-	random = (rand()%100)+1;   // Generates random numbers b/w 1 and 100 inclusive
+	random = (rand()%100)+1;   
     
     char op;
 	int a = 1;
