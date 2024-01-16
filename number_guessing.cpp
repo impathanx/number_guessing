@@ -1,3 +1,4 @@
+//coded by- yasir Ali khan coded for-codsoft internship
 #include<iostream>
 #include<cstdlib>
 #include<ctime>
