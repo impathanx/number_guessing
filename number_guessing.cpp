@@ -39,14 +39,14 @@ int main()
 		turns ++;
 	}
 	else{
-		cout<<"You Guessed the Number!"<<endl;
+		cout<<"You Guessed the Right Number!"<<endl;
 		cout<<"Congratulations, You won the game!"<<endl;
 		a = 0;
 	}
 }
   while(a==1);
 	cout<<"\n\nGAME OVER"<<endl;
-	cout<<"Would you like to play again?(y/n)"<<endl;
+	cout<<"Do you like to play again?(y/n)"<<endl;
 	cin>>op;
 	if(op=='y'||op=='Y'){
 		goto label;  //Use of goto statement is highly discouraged!
